@@ -7,31 +7,15 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m                                                                                                                                                                                                      
-                                                                                                                                                                                                     
-TTTTTTTTTTTTTTTTTTTTTTT                     iiii                      kkkkkkkk                                                                CCCCCCCCCCCCC                                          
-T:::::::::::::::::::::T                    i::::i                     k::::::k                                                             CCC::::::::::::C                                          
-T:::::::::::::::::::::T                     iiii                      k::::::k                                                           CC:::::::::::::::C                                          
-T:::::TT:::::::TT:::::T                                               k::::::k                                                          C:::::CCCCCCCC::::C                                          
-TTTTTT  T:::::T  TTTTTTrrrrr   rrrrrrrrr  iiiiiii     cccccccccccccccc k:::::k    kkkkkkk eeeeeeeeeeee  yyyyyyy           yyyyyyy      C:::::C       CCCCCC  aaaaaaaaaaaaa      mmmmmmm    mmmmmmm   
-        T:::::T        r::::rrr:::::::::r i:::::i   cc:::::::::::::::c k:::::k   k:::::kee::::::::::::ee y:::::y         y:::::y      C:::::C                a::::::::::::a   mm:::::::m  m:::::::mm 
-        T:::::T        r:::::::::::::::::r i::::i  c:::::::::::::::::c k:::::k  k:::::ke::::::eeeee:::::eey:::::y       y:::::y       C:::::C                aaaaaaaaa:::::a m::::::::::mm::::::::::m
-        T:::::T        rr::::::rrrrr::::::ri::::i c:::::::cccccc:::::c k:::::k k:::::ke::::::e     e:::::e y:::::y     y:::::y        C:::::C                         a::::a m::::::::::::::::::::::m
-        T:::::T         r:::::r     r:::::ri::::i c::::::c     ccccccc k::::::k:::::k e:::::::eeeee::::::e  y:::::y   y:::::y         C:::::C                  aaaaaaa:::::a m:::::mmm::::::mmm:::::m
-        T:::::T         r:::::r     rrrrrrri::::i c:::::c              k:::::::::::k  e:::::::::::::::::e    y:::::y y:::::y          C:::::C                aa::::::::::::a m::::m   m::::m   m::::m
-        T:::::T         r:::::r            i::::i c:::::c              k:::::::::::k  e::::::eeeeeeeeeee      y:::::y:::::y           C:::::C               a::::aaaa::::::a m::::m   m::::m   m::::m
-        T:::::T         r:::::r            i::::i c::::::c     ccccccc k::::::k:::::k e:::::::e                y:::::::::y             C:::::C       CCCCCCa::::a    a:::::a m::::m   m::::m   m::::m
-      TT:::::::TT       r:::::r           i::::::ic:::::::cccccc:::::ck::::::k k:::::ke::::::::e                y:::::::y               C:::::CCCCCCCC::::Ca::::a    a:::::a m::::m   m::::m   m::::m
-      T:::::::::T       r:::::r           i::::::i c:::::::::::::::::ck::::::k  k:::::ke::::::::eeeeeeee         y:::::y                 CC:::::::::::::::Ca:::::aaaa::::::a m::::m   m::::m   m::::m
-      T:::::::::T       r:::::r           i::::::i  cc:::::::::::::::ck::::::k   k:::::kee:::::::::::::e        y:::::y                    CCC::::::::::::C a::::::::::aa:::am::::m   m::::m   m::::m
-      TTTTTTTTTTT       rrrrrrr           iiiiiiii    cccccccccccccccckkkkkkkk    kkkkkkk eeeeeeeeeeeeee       y:::::y                        CCCCCCCCCCCCC  aaaaaaaaaa  aaaammmmmm   mmmmmm   mmmmmm
-                                                                                                              y:::::y                                                                                
-                                                                                                             y:::::y                                                                                 
-                                                                                                            y:::::y                                                                                  
-                                                                                                           y:::::y                                                                                   
-                                                                                                          yyyyyyy                                                                                    
-                                                                                                                                                                                                     
-                                                                                                                                                                                                     
+printf "\e[1;92m 
+_____                 
+|_   _|  (_)    | |              /  __ \                
+  | |_ __ _  ___| | _____ _   _  | /  \/ __ _ _ __ ___  
+  | | '__| |/ __| |/ / _ \ | | | | |    / _` | '_ ` _ \ 
+  | | |  | | (__|   <  __/ |_| | | \__/\ (_| | | | | | |
+  \_/_|  |_|\___|_|\_\___|\__, |  \____/\__,_|_| |_| |_|
+                           __/ |                        
+                          |___/                                                                                                                                                  
 
  \e[0m\n"
 
