@@ -34,7 +34,7 @@ apt-get -y install php openssh git wget
 ```
 git clone https://github.com/TeamDarkAnon/TrickeyCam
 cd TrickeyCam
-bash TrickeyCam.sh
+bash trickeycam.sh
 ```
 
 ## Change Log:
