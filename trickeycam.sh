@@ -100,7 +100,7 @@ fi
 
 printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Starting php server... (localhost:3333)\e[0m\n"
 fuser -k 3333/tcp > /dev/null 2>&1
-php -S localhost:3333 > /dev/null 2>&1 &
+php -S 0.0.0.0:3333 > /dev/null 2>&1 &
 
 
 }
